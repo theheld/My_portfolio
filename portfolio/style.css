@@ -1,0 +1,675 @@
+body 
+{
+    font-family: 'Roboto',sans-serif;
+    font-weight: lighter;
+    text-overflow: ellipsis;
+    color: white;
+    background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+    background-size: 22px 22px;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+.heading
+{
+    font-size: clamp(2.5rem, 6vw, 4.5rem);  
+}
+
+.sub_heading{
+    font-size: clamp(2rem, 4vw, 4rem);
+    margin-bottom: 0;
+    margin-top: 0;  
+}
+
+
+#Android_title
+{
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+#Andriod_title_Green
+{
+    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    color: #37db85;
+}
+
+.name
+{
+    font-size: clamp(1.3rem, 4vw, 2.5rem);
+    margin: 0;
+    margin-bottom: 1%;
+}
+
+
+#bio1
+{
+    font-size: clamp(0.2rem, 4vw, 1.2rem);
+    max-width: 100%;
+    min-width: 80%;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+
+}
+
+
+
+
+.Android_info_heading
+{
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    margin-left: 0;
+    margin-bottom: 2.6%;
+}
+
+
+
+.Android_info_heading2 {
+    font-size: clamp(2.5rem, 4vw, 4.5rem);
+    margin: 0;
+}
+
+
+
+
+.Android_info_bio
+{
+  
+    width: 100%;
+  font-size: clamp(0.6rem, 4vw, 1rem);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 10.5%;
+}
+
+
+
+.icon_try
+{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*  block layout */
+
+
+.profile_container{
+    
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+
+
+}
+
+.profile_pic{
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.context_container{
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.context_container_image{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.context_date{
+    height: 65%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.My_Journey
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arduino
+{
+    margin: 0;
+    width: 100%;
+}
+
+.aurdino_div1
+{
+    width: 100%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.aurdino_div2
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aurdino_div3
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22%;
+}
+
+
+.Rasbeery_pi
+{
+    margin: 0;
+    width: 100%;
+}
+
+
+.rasberry_div1{
+    display: flex;
+    flex-direction: row;
+}
+
+.rasberry_icon_container
+{
+    width: 15%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    margin: 0;
+}
+
+.rasberry_title_container
+{
+
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 105px;
+}
+
+
+.rasberry_div2
+{
+    
+    margin: 0;
+    width: 100%;
+    margin: 5.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+
+
+.android
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.android_div1
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.android_div2
+{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.android_div3 {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.android_div4 {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.android_div5
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+
+
+.android_div6 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.android_info_div
+{
+    margin-bottom: 10%;
+}
+
+
+
+.machine_learning
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.machine_learning_div1
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.machine_learning_div2 
+{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.machine_learning_div3 {
+
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.machine_learning_div4 {
+
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.machine_learning_div4_sub1
+{
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.machine_learning_div4_sub2 {
+    width: 75%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.machine_learning_div4_sub3 {
+    width: 45%;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.machine_learning_div4_sub4 {
+    width: 55%;
+    height: 250px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.Web_dev
+{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.web_dev_div1
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.web_dev_div1_sub1
+{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.web_dev_div1_sub2 {
+    height: 100%;
+
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.web_dev_div1_sub2_container1
+{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web_dev_div1_sub2_container2 {
+    height: 55%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* block layout */
+
+
+
+/* icon alignment */
+
+.icon_try_icon {
+
+    max-width: 36px;
+    min-width: 28px;
+    max-height: 36px;
+    min-height: 28px;
+    margin: 5px;
+}
+
+
+#icon1
+{
+    height: 100%;
+    width: auto;
+    margin: 0;
+    transform: rotate(42deg);
+}
+
+#icon2
+{
+    height: 80%;
+    width: 80%;
+    margin: 0;
+}
+
+
+#icon3{
+    margin-top: 0.2%;
+    margin-left: 12%;
+    height: 45px;
+    width: 45px;
+    transform: rotate(145deg);
+}
+
+#icon4 {
+    
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    margin-left: 18%;
+    transform: rotate(-40deg);
+}
+
+
+#icon5
+{
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    transform: rotate(90deg);
+}
+
+#icon6
+{
+
+    height: 45px;
+    width: 45px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 8.9%;
+    
+
+}
+
+#icon7
+{
+    margin-top: 0.2%;
+    margin-left: 0.5%;
+    height: 65px;
+    width: 65px;
+    transform: rotate(45deg);
+}
+
+#icon8 {
+
+   height: 45px;
+   width: 45px;
+   
+}
+
+
+#icon9 {
+    height: 45px;
+    width: 45px;
+    transform: rotate(-90deg);
+}
+
+#icon10
+{
+    height: 65px;
+    width: 65px;
+    transform: rotate(-90deg);
+}
+
+
+#icon11
+{
+    height: 45px;
+    width: 45px;
+    transform: rotate(210deg);
+}
+
+
+#icon12 
+{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0;
+    margin-left: 35%;
+}
+
+
+#icon13 {
+    height: 55px;
+    width: 55px;
+    margin-top: 2%;
+    margin-left: 20%;
+    transform: rotate(45deg);
+}
+
+
+#icon14 
+{
+    height: 55px;
+    width: 55px;
+    transform: rotate(235deg);
+}
+
+
+#icon15 {
+    height: 65px;
+    width: 65px;
+    transform: rotate(-90deg);
+}
+
+
+/* image */
+
+
+#image1
+{
+    max-width: 80%;
+    min-width: 60%;
+    background-color: transparent;
+    margin: 0;
+
+}
+
+#image2 {
+    max-width: 80%;
+    min-width: 60%;
+    background-color: transparent;
+    margin: auto;
+
+}
+
+
+.Audrino_Main_Image {
+    width: 85%;
+    height: auto;
+}
+
+
+
+#image3 {
+    max-width: 80%;
+    max-height: 80%;
+    min-height: 60%;
+    min-width: 60%;
+    background-color: transparent;
+    margin: 0;
+}
+
+/* image */
+
+
+
+/* icon alignment */
+
+
+
+
+ ul li {
+    font-size: clamp(1rem, 2vw, 2rem);
+ }
+
+ .profile_img
+ {
+    width: 75%;
+    border-radius: 50%;
+    box-shadow: 0 0 98px 6px rgba(0, 0, 0, 0.2);
+ }
+
+
+
+
+
